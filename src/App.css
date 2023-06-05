@@ -43,9 +43,12 @@ body {
 }
 
 .react-horizontal-scrolling-menu--scroll-container {
-  width: 100%;
+   
   display: flex;
-  flex-wrap: wrap;
+  overflow-y: auto;
+  
+  margin:auto;
+  
 }
 
 .detail-image {
@@ -114,7 +117,7 @@ body {
 
 
   .react-horizontal-scrolling-menu--scroll-container {
-    width: 500px;
+    /* width: 10000px; */
   }
 
   .left-arrow,
